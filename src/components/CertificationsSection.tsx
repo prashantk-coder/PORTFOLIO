@@ -3,8 +3,8 @@ import { Award, ExternalLink } from "lucide-react";
 
 const certifications = [
   {
-    title: "Computational Theory",
-    issuer: "Infosys",
+    title: "Internet of Things",
+    issuer: "NPTEL",
     icon: "🧮",
   },
   {

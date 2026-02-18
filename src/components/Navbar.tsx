@@ -65,7 +65,7 @@ export const Navbar = () => {
               <Github size={20} />
             </a>
             <a
-              href="https://linkedin.com/in/prashant-chahar"
+              href="https://www.linkedin.com/in/aditya-raj-dixit-068518290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -115,7 +115,7 @@ export const Navbar = () => {
                   <Github size={20} />
                 </a>
                 <a
-                  href="https://linkedin.com/in/prashant-chahar"
+                  href="https://www.linkedin.com/in/aditya-raj-dixit-068518290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary transition-colors"

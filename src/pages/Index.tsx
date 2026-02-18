@@ -34,7 +34,6 @@
 
 import { Navbar } from "@/components/Navbar";
 import { HeroSection } from "@/components/HeroSection";
-import { PhotoSection } from "@/components/PhotoSection";
 import { AboutSection } from "@/components/AboutSection";
 import { SkillsSection } from "@/components/SkillsSection";
 import { ProjectsSection } from "@/components/ProjectsSection";
@@ -49,7 +48,6 @@ const Index = () => {
       <Navbar />
       <main>
         <HeroSection />
-        <PhotoSection />
         <AboutSection />
         <SkillsSection />
         <ProjectsSection />

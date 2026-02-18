@@ -647,7 +647,7 @@ export const HeroSection = () => {
             <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
               <Button size="lg" className="gap-2 glow-effect" asChild>
                 <a
-                  href="https://drive.google.com/file/d/1I_LxYbsul3jPCQKWo6kBBOgovnFWtbQR/view"
+                  href="https://drive.google.com/file/d/1BnyxqOa_XLotHh3_AArkASCrewMXwXF2/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

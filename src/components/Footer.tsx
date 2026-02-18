@@ -30,7 +30,7 @@ export const Footer = () => {
 
           {/* Made with love */}
           <div className="flex items-center gap-1 text-sm text-muted-foreground">
-            Made by Prashant Kumar Chahar
+            Made by Aditya Raj dixit
           </div>
 
           {/* Social Links */}

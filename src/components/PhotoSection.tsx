@@ -81,8 +81,53 @@
 //     </section>
 //   );
 // };
+// import { motion } from "framer-motion";
+// import profileImg from "../assets/aditya.jpeg";
+
+// export const PhotoSection = () => {
+//   return (
+//     <section className="py-20 relative">
+//       <div className="container mx-auto px-6">
+//         <motion.div
+//           initial={{ opacity: 0, scale: 0.9 }}
+//           whileInView={{ opacity: 1, scale: 1 }}
+//           transition={{ duration: 0.6 }}
+//           viewport={{ once: true }}
+//           className="flex flex-col items-center"
+//         >
+//           {/* Photo Container */}
+//           <div className="relative group">
+//             {/* Decorative Ring */}
+//             <div className="absolute -inset-3 rounded-full bg-gradient-to-br from-primary via-accent to-primary opacity-30 blur-md group-hover:opacity-60 transition-opacity duration-500" />
+
+//             {/* Profile Photo */}
+//             <div className="relative w-56 h-56 md:w-72 md:h-72 rounded-full overflow-hidden border-2 border-primary/40">
+//               <img
+//                 src={profileImg}
+//                 alt="Prashant Profile Photo"
+//                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+//               />
+//             </div>
+//           </div>
+
+//           <p className="mt-6 text-muted-foreground text-sm">
+//             Upload your profile photo to personalize your portfolio
+//           </p>
+//         </motion.div>
+//       </div>
+//     </section>
+//   );
+// };
+
+
+
+
+
+
+
+
+
 import { motion } from "framer-motion";
-import profileImg from "../assets/prashant.png";
 
 export const PhotoSection = () => {
   return (
@@ -95,23 +140,24 @@ export const PhotoSection = () => {
           viewport={{ once: true }}
           className="flex flex-col items-center"
         >
-          {/* Photo Container */}
           <div className="relative group">
-            {/* Decorative Ring */}
+
+            {/* Glow Ring */}
             <div className="absolute -inset-3 rounded-full bg-gradient-to-br from-primary via-accent to-primary opacity-30 blur-md group-hover:opacity-60 transition-opacity duration-500" />
 
-            {/* Profile Photo */}
-            <div className="relative w-56 h-56 md:w-72 md:h-72 rounded-full overflow-hidden border-2 border-primary/40">
+            {/* Circular Image */}
+            <div className="relative w-56 h-56 md:w-72 md:h-72 rounded-full overflow-hidden border-2 border-primary/40 shadow-xl">
               <img
-                src={profileImg}
-                alt="Prashant Profile Photo"
+                src="/aditya.png"
+                alt="Aditya Profile Photo"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
             </div>
+
           </div>
 
           <p className="mt-6 text-muted-foreground text-sm">
-            Upload your profile photo to personalize your portfolio
+            Welcome to my portfolio 👋
           </p>
         </motion.div>
       </div>

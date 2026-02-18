@@ -53,7 +53,7 @@ export const AboutSection = () => {
             className="space-y-6"
           >
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I'm <span className="text-foreground font-semibold">Prashant Kumar Chahar</span>, 
+              I'm <span className="text-foreground font-semibold">Aditya Raj Dixit</span>, 
               a B.Tech Computer Science student with a passion for building web applications 
               that make a difference. My journey in tech has been driven by curiosity and a 
               constant desire to learn and grow.

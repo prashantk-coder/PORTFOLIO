@@ -10,19 +10,19 @@ const contactLinks = [
   {
     icon: Mail,
     label: "Email",
-    value: "adrajdixit@gmail.com",
-    href: "mailto:adrajdixit@gmail.com",
+    value: "prashantkchahar@gmail.com",
+    href: "mailto:prashantkchahar@gmail.com",
   },
   {
     icon: Linkedin,
     label: "LinkedIn",
-    value: "aditya-raj",
-    href: "https://www.linkedin.com/in/aditya-raj-dixit-068518290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    value: "prashant-chahar",
+    href: "www.linkedin.com/in/prashant-chahar",
   },
   {
     icon: Github,
     label: "GitHub",
-    value: "aditya-coder",
+    value: "prashantk-coder",
     href: "https://github.com/prashantk-coder",
   },
 ];

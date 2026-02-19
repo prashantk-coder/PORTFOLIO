@@ -13,8 +13,8 @@ const education = [
   },
   {
     degree: "Intermediate (PCM)",
-    //institution: "Shri Ramlata Devi Public School",
-    institution: "Shri gopal inter college",
+    institution: "Shri Ramlata Devi Public School",
+    
     location: "Agra, India",
     period: "Completed",
     grade: "80.1%",
@@ -23,8 +23,7 @@ const education = [
   },
   {
     degree: "Matriculation",
-    //institution: "St. Joseph Vaz Vidhyaniketan School",
-    institution: "Shri gopal inter college",
+    institution: "St. Joseph Vaz Vidhyaniketan School",
     location: "Uttar Pradesh, India",
     period: "Completed",
     grade: "64.6%",
